@@ -1,8 +1,8 @@
-from MLProject import logger
-from MLProject.pipeline.stage_01_data_ingestion import DataIngestionPipeline
-from MLProject.pipeline.stage_02_preprocessing import PreprocessingPipeline
-from MLProject.pipeline.stage_03_train_model import TrainingPipeline
-from MLProject.pipeline.stage_04_model_evaluation import TrainEvaluationPipeline
+from LazadaReviews import logger
+from LazadaReviews.pipeline.stage_01_data_ingestion import DataIngestionPipeline
+from LazadaReviews.pipeline.stage_02_preprocessing import PreprocessingPipeline
+from LazadaReviews.pipeline.stage_03_train_model import TrainingPipeline
+from LazadaReviews.pipeline.stage_04_model_evaluation import TrainEvaluationPipeline
 
 STAGE_NAME = "Data Ingestion"
 

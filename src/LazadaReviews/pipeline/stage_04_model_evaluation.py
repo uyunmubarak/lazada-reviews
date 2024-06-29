@@ -1,6 +1,6 @@
-from MLProject.config.configuration import ConfigurationManager
-from MLProject.components.model_evaluation import TrainEvaluation
-from MLProject import logger
+from LazadaReviews.config.configuration import ConfigurationManager
+from LazadaReviews.components.model_evaluation import TrainEvaluation
+from LazadaReviews import logger
 
 STAGE_NAME = "Training Evaluation"
 

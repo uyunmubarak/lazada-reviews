@@ -1,9 +1,9 @@
 import os
 
 from pathlib import Path
-from MLProject.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
-from MLProject.utils.common import read_yaml, create_directories
-from MLProject.entity.config_entity import (DataIngestionConfig, 
+from LazadaReviews.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
+from LazadaReviews.utils.common import read_yaml, create_directories
+from LazadaReviews.entity.config_entity import (DataIngestionConfig, 
                                             PreprocessingConfig,
                                             TrainingConfig,
                                             TrainEvaluationConfig)

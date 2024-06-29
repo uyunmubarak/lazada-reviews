@@ -1,5 +1,5 @@
-from MLProject import logger
-from MLProject.entity.config_entity import DataIngestionConfig
+from LazadaReviews import logger
+from LazadaReviews.entity.config_entity import DataIngestionConfig
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):

@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/root/pacmann/pacmann-ml-project-template/.ml-project-venv"
+VIRTUAL_ENV="/root/pacmann/lazada-reviews/.lazada-reviews-venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(.ml-project-venv) " != x ] ; then
-	PS1="(.ml-project-venv) ${PS1:-}"
+    if [ "x(.lazada-reviews-venv) " != x ] ; then
+	PS1="(.lazada-reviews-venv) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories

@@ -1,5 +1,5 @@
-from MLProject import logger
-from MLProject.entity.config_entity import PreprocessingConfig
+from LazadaReviews import logger
+from LazadaReviews.entity.config_entity import PreprocessingConfig
 
 class Preprocessing:
     def __init__(self, config: PreprocessingConfig):
